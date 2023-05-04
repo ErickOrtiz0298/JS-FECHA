@@ -57,5 +57,3 @@ function obtenerDia(diaSemana){
     }
     document.getElementById("respuestaDia").value = mensaje;
 }
-
-//document.getElementById("respuestaDia").value = `${valorFecha["dia"]}`
