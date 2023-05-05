@@ -54,6 +54,8 @@ function obtenerDia(diaSemana){
         case 6: 
         mensaje = "Sabado, dia no laborable";
             break;
+        default:
+            mensaje = "No es una fecha valida";
     }
     document.getElementById("respuestaDia").value = mensaje;
 }
